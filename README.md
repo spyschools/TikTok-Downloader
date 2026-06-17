@@ -20,11 +20,11 @@ $ git clone https://github.com/spyschools/TikTok-Downloader.git
 
 $ cd TikTok-Downloader 
  
-$ chmod +x tiktok_downloader.
+$ chmod +x tiktok_downloader.py
 
 $ python3 tiktok_downloader.py
 
- 
+
 *Nanti akan muncul tampilan seperti ini:
 
 =============================================
