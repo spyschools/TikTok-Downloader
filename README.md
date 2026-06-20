@@ -14,11 +14,14 @@ Sebelum menggunakan, pastikan sistem Linux Anda sudah terpasang:
 *`curl` atau `wget`
 
 *Install pyktok dulu:
-$ pip3 install pyktok --break-system-packagesh Browser 
-  
+
 $ git clone https://github.com/spyschools/TikTok-Downloader.git
 
 $ cd TikTok-Downloader 
+
+$ pip3 install pyktok --break-system-packages
+
+$ pip3 install yt-dlp --break-system-packages
  
 $ chmod +x tiktok_downloader.py
 
