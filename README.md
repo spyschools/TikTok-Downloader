@@ -2,11 +2,10 @@
 Tools berbasis terminal (CLI) yang ringan dan cepat menggunakan Python untuk mengunduh video TikTok tanpa *watermark* langsung di Linux &amp; Terminal apapun
 
 ## 🚀 Fitur Utama
-Unduh video TikTok
-Unduh metadata video
-Unduh sekitar 30 video dan/atau baris metadata dari tagar, pengguna, dan bagian "Anda Mungkin Suka" di halaman video (Anda dapat mencoba menentukan jumlah pastinya, tetapi TikTok tidak selalu mengikutinya secara tepat).
-Unduh komentar video
-Unduh objek data JSON TikTok lengkap (jika Anda ingin mengekstrak data dari bagian objek yang tidak termasuk dalam fungsi di atas)
+1. Download 1 video (dari URL)
+2. Download semua video dari 1 akun
+3. Download banyak video (batch URL)
+4. Download video dari hashtag
 
 ## 🛠️ Prasyarat
 Sebelum menggunakan, pastikan sistem Linux Anda sudah terpasang:
