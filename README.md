@@ -30,13 +30,28 @@ $ python3 tiktok_downloader.py
 *Nanti akan muncul tampilan seperti ini:
 
 =============================================
-      TIKTOK DOWNLOADER - pyktok
+      TIKTOK DOWNLOADER v2
+      pyktok + yt-dlp
 =============================================
-[INFO] Direktori kerja: /root/Downloads
+[INFO] Direktori kerja : /home/spyschools/TikTok-Downloader
+[INFO] pyktok          : ✓ OK
+[INFO] yt-dlp          : ✓ OK
 
 === Pilih Browser ===
   1. chrome
   2. firefox
   3. chromium
-  ...
+  4. safari
+  5. edge
+
+Masukkan nomor browser [default: 1=chrome]: 1
+[INFO] Menggunakan browser: chrome
+
+=== MENU UTAMA ===
+  1. Download 1 video (dari URL)
+  2. Download semua video dari 1 akun
+  3. Download banyak video (batch URL)
+  4. Download video dari hashtag
+  5. Ganti browser
+  0. Keluar
 
