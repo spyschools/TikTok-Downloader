@@ -466,7 +466,7 @@ def interactive():
     cfg = default_cfg()
     cfg.session = make_session(cfg)
     print("=" * 52)
-    print("      TIKTOK DOWNLOADER v3")
+    print("      TIKTOK DOWNLOADER v2")
     print("      Video · Foto · Slideshow · Akun · Hashtag")
     print("=" * 52)
     print("  By        : Spy Schools (Fariz Azhari)")
