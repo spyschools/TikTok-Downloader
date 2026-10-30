@@ -1,9 +1,13 @@
 <div align="center">
 
-# 📥 TikTok Downloader v3
+# 📥 TikTok Downloader v2
 
 **Download video, foto, slideshow foto, audio, akun, hashtag & batch dari terminal**  
 Video Besar · Foto · Slideshow · MP3 · Resume · Anti-Duplikat · Auto-Retry
+
+By        : Spy Schools (Fariz Azhari)
+Instagram : https://instagram.com/frzazhri
+LinkedIn  : https://linkedin.com/in/farizazhari
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-557C94?style=for-the-badge&logo=linux&logoColor=white)](https://kali.org)
