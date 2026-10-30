@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
-TikTok Downloader v3 - yt-dlp + requests (+ pyktok / gallery-dl opsional)
+TikTok Downloader v2 - yt-dlp + requests (+ pyktok / gallery-dl opsional)
+
+By        : Spy Schools (Fariz Azhari)
+Instagram : https://instagram.com/frzazhri
+LinkedIn  : https://linkedin.com/in/farizazhari
 
 Fitur:
   - Video (termasuk file besar: resume, retry, download per-chunk)
@@ -465,6 +469,10 @@ def interactive():
     print("      TIKTOK DOWNLOADER v3")
     print("      Video · Foto · Slideshow · Akun · Hashtag")
     print("=" * 52)
+    print("  By        : Spy Schools (Fariz Azhari)")
+    print("  Instagram : instagram.com/frzazhri")
+    print("  LinkedIn  : linkedin.com/in/farizazhari")
+    print("=" * 52)
     print(f"  yt-dlp : {'OK' if YTDLP_OK else 'tidak ada'}   requests: {'OK' if REQUESTS_OK else 'tidak ada'}")
     print(f"  ffmpeg : {'OK' if FFMPEG_OK else 'tidak ada'}   pyktok  : {'OK' if PYKTOK_OK else 'opsional'}"
           f"   gallery-dl: {'OK' if GALLERYDL_OK else 'opsional'}")
@@ -533,7 +541,10 @@ def interactive():
 
 # ───────────────────────── CLI ─────────────────────────
 def cli(argv):
-    ap = argparse.ArgumentParser(description="TikTok Downloader v3 (video, foto, slideshow)")
+    ap = argparse.ArgumentParser(
+        description="TikTok Downloader (video, foto, slideshow)",
+        epilog="By Spy Schools (Fariz Azhari) | instagram.com/frzazhri | "
+               "linkedin.com/in/farizazhari")
     ap.add_argument("urls", nargs="*", help="URL video/foto/slideshow")
     ap.add_argument("-f", "--file", help="file .txt berisi daftar URL")
     ap.add_argument("-u", "--user", help="download semua konten akun (tanpa @)")
