@@ -56,13 +56,14 @@ LinkedIn  : https://linkedin.com/in/farizazhari
 git clone https://github.com/spyschools/TikTok-Downloader.git
 cd TikTok-Downloader
 
-pip install -r requirements.txt --break-system-packages
-sudo apt install ffmpeg        # disarankan: merge video HD & ekstrak MP3
+pip3 install --upgrade pip --break-system-packages
+pip3 install -r requirements.txt --break-system-packages
+sudo apt update && sudo apt install ffmpeg        # disarankan: merge video HD & ekstrak MP3
 ```
 
 Opsional:
 ```bash
-pip install pyktok gallery-dl --break-system-packages
+pip3 install pyktok gallery-dl --break-system-packages
 ```
 
 > `--break-system-packages` hanya diperlukan di distro seperti Kali/Debian terbaru. Alternatifnya pakai `python3 -m venv venv`.
